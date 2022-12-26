@@ -2,7 +2,7 @@ var btnTranslate = document.querySelector("#btn-translate");
 var txtInput = document.querySelector("#txt-input");
 var outputDiv = document.querySelector("#output");
 
-var serverURL = "https://funtranslations.com/shakespeare"
+var serverURL = "https://api.funtranslations.com/shakespearetranslate/minion.json"
 
 
 function getTranslationURL(input) {
@@ -21,7 +21,7 @@ function clickHandler() {
     fetch(getTranslationURL(inputText))
         .then(response => response.json())
         .then(json => {
-            var translatedText = json.contents.translated;
+            var translatedText = shakespearejson.contents.translated;
             outputDiv.innerText = translatedText; 
            })
         .catch(errorHandler)
