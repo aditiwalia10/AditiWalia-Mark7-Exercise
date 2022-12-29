@@ -5,8 +5,8 @@
 body {
     margin: 0;
     font-style: italic;
-    font-family: cursive;
-    color: #0891b2;
+    font-family:sans-serif;
+    color: #0f766e;
 }
 
 textarea {
@@ -17,7 +17,7 @@ textarea {
             padding: 1rem;
             background-color: white;
             font-size: 2rem;
-            color: #0891b2;
+            color: #0f766e;
             border-top-left-radius: 0.5rem;
             border-top-right-radius: 0.5rem;
             border-bottom-left-radius: 0.5rem;
@@ -33,7 +33,7 @@ textarea {
             padding: 2rem;
             background-color: white;
             font-size: 2rem;
-            color: #0891b2;
+            color: #0f766e;
             text-align: center;
             border-top-left-radius: 0.5rem;
             border-top-right-radius: 0.5rem;
@@ -47,7 +47,7 @@ textarea {
             width: 10%;
             margin: auto;
             padding-top: 1rem;
-            background-color: #9bd5c9;
+            background-color: #0f766e;
             font-size: 1.5rem;
             box-sizing: border-box;
             display: block;
@@ -62,10 +62,12 @@ textarea {
 
         h1 {
             text-align: center;
+            color: #0f766e;
         }
 
         #lib-header {
             text-align: center;
+            color: #0f766e;
         } 
 
 footer {
@@ -75,7 +77,7 @@ footer {
     bottom: 0%;
     width: 100%;
     padding: 1rem 0rem;
-    background-color: #0891b2;
+    background-color: #0f766e;
     text-align: center;
     align-items: center;
     justify-content: center;
