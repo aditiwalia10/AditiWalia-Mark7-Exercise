@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+
+
+body {
+    margin: 0;
+    font-style: italic;
+    font-family: cursive;
+    color: #0891b2;
+}
+
+textarea {
+            width: 80%;
+            height: 10vh;
+            display: block;
+            margin: auto;
+            padding: 1rem;
+            background-color: white;
+            font-size: 2rem;
+            color: #0891b2;
+            border-top-left-radius: 0.5rem;
+            border-top-right-radius: 0.5rem;
+            border-bottom-left-radius: 0.5rem;
+            border-bottom-right-radius: 0.5rem;
+            border: 1px solid #0891b2;
+        }
+
+        #output {
+            border: 1px solid #0891b2;
+            height: 10vh;
+            width: 80%;
+            margin: auto;
+            padding: 2rem;
+            background-color: white;
+            font-size: 2rem;
+            color: #0891b2;
+            text-align: center;
+            border-top-left-radius: 0.5rem;
+            border-top-right-radius: 0.5rem;
+            border-bottom-left-radius: 0.5rem;
+            border-bottom-right-radius: 0.5rem;
+            display: block;
+        }
+
+        #btn-translate {
+            border: 1px solid #0891b2;
+            width: 10%;
+            margin: auto;
+            padding-top: 1rem;
+            background-color: #9bd5c9;
+            font-size: 1.5rem;
+            box-sizing: border-box;
+            display: block;
+            color: black;
+            cursor: pointer;
+            border-style: solid;
+            border-radius: 1rem;
+            padding: 0.5rem 1rem;
+            line-height: normal;
+            appearance: auto;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        #lib-header {
+            text-align: center;
+        } 
+
+footer {
+    display: block;
+    font-size: 1rem;
+    position: fixed;
+    bottom: 0%;
+    width: 100%;
+    padding: 1rem 0rem;
+    background-color: #0891b2;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-block-start: 1em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    color: white;
+}
+
